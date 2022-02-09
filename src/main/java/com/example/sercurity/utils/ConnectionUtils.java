@@ -9,7 +9,7 @@ public class ConnectionUtils {
     private static Connection connection;
 
     public synchronized static Connection getConnection() {
-        String url = "jdbc:mysql://localhost:3307/sercurity";
+        String url = "jdbc:mysql://localhost:3306/sercurity";
         String user = "root";
         String pass = "";
         if (connection == null) {

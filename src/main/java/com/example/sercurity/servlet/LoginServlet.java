@@ -1,4 +1,4 @@
-package com.example.sercurity;
+package com.example.sercurity.servlet;
 
 import com.example.sercurity.dao.UserDao;
 import com.example.sercurity.modal.User;
